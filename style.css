@@ -1,0 +1,52 @@
+#google {
+  width: 450px;
+  height: 190px;
+  margin-top: 107px;
+  margin-left: 460px;
+}
+
+input {
+  background-image: url(mic.png);
+  background-position: right center;
+  background-size: 40px 43px;
+  background-repeat: no-repeat;
+  outline: none;
+  padding: 20px;
+  font-size: 20px;
+  border: 1.3px solid black;
+  width: 570px;
+  height: 48px;
+  margin-left: 400px;
+  border-radius: 100px;
+}
+
+#circle {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-image: url(Jas.jpg);
+  background-size: 100% 100%;
+  margin-left: 1300px;
+  margin-top: -335px;
+}
+
+#bell {
+  width: 20px;
+  height: 24px;
+  margin-left: 1256px;
+  margin-top: -27px;
+}
+
+#images {
+  margin-left: 1185px;
+  margin-top: -25px;
+}
+
+#gmail {
+  margin-left: 1128px;
+  margin-top: -33px;
+}
+
+input:focus::placeholder {
+  visibility: hidden;
+}
